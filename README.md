@@ -47,6 +47,7 @@ You may take a look at [this example](/examples/express-server) if you need to d
    - `options.printer`: (`string` [optional]): Print to the specified printer. Will print to the default printer if name not specified. If the printer name mistyped or specified printer does not exist, nothing will print.
    - `options.unix`: (`array` [optional]):  Since we use **lp** to print documents on Unix-like operating systems you can pass any available in [this list option](https://www.computerhope.com/unix/ulp.htm).
    - `options.win32`: (`array` [optional]): And since we use **SumatraPDF** to print documents on Windows you can pass any available in [this list option](https://www.sumatrapdfreader.org/docs/Command-line-arguments.html).
+   - `options.sumatraPath`: (`string` [optional]): Windows only. Alternative path for the **SumatraPDF** executable.
 
 **Returns**
 
